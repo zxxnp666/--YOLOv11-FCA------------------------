@@ -1,0 +1,42 @@
+# 基于YOLOv11-FCA的雾天交通目标实时检测与去雾增强系统
+# Python 3.10-3.12 推荐 + CUDA 12.x 兼容
+# ===== 深度学习框架 =====
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# ===== 计算机视觉 =====
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+Pillow>=10.0.0
+
+# ===== 数据处理 =====
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# ===== 可视化 =====
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.14.0
+
+# ===== 工具库 =====
+PyYAML>=6.0
+tqdm>=4.65.0
+# scikit-learn>=1.3.0  # 如果需要，请使用 Python 3.11
+# scikit-image>=0.21.0  # 如果需要，请使用 Python 3.11
+
+# ===== 图像质量评估（可选）=====
+# lpips>=0.1.4
+# piqa>=1.3.0
+
+# ===== YOLO相关（核心）=====
+ultralytics>=8.0.0
+
+# ===== Web界面（可选）=====
+# gradio>=4.0.0
+# streamlit>=1.30.0
+
+# ===== 其他工具 =====
+requests>=2.31.0
+colorama>=0.4.6

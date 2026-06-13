@@ -1,0 +1,6 @@
+{
+  "last_deanet_path": "checkpoints\\deanet\\user_best.pk",
+  "last_yolo_path": "YOLOv11-FCA\\training\\2.1 集合FCA150轮\\best.pt",
+  "last_deanet_day_path": "checkpoints/deanet/白天.pk",
+  "last_deanet_night_path": "checkpoints/deanet/夜晚.pk"
+}
